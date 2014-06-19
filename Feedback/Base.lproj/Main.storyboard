@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="3Xu-VC-QZu">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="7Jh-H8-6OP">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="3Xu-VC-QZu" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2JB-7R-J1b">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="nth-bk-JM1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R8z-7m-fQk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1669" y="-580"/>
+        </scene>
+        <!--View Controller - Apple Bootcamp Feedback-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MTAViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lEd-3f-T37"/>
+                        <viewControllerLayoutGuide type="bottom" id="C2S-cR-3Vp"/>
+                    </layoutGuides>
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" id="PRa-yj-42t">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. How helpful was the content of the Bootcamp? – 1 to 10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1uh-W2-qaO">
+                                <rect key="frame" x="20" y="94" width="728" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. How would rate the presentation? – 1 to 10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oxf-fD-t6R">
+                                <rect key="frame" x="20" y="174" width="728" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. How interested are you to continue developing on iOS after this Bootcamp? – 1 to 10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omy-0o-L8N">
+                                <rect key="frame" x="20" y="254" width="728" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4. How likely are you to refer this Bootcamp to someone else? – 1 to 10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFo-rU-dMD">
+                                <rect key="frame" x="20" y="334" width="728" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5. What would change in this Bootcamp to make it more effective for you?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7b7-lE-Ivh">
+                                <rect key="frame" x="20" y="414" width="728" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="728" translatesAutoresizingMaskIntoConstraints="NO" id="jOH-0D-6nz">
+                                <rect key="frame" x="20" y="575" width="728" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">6. Do you have an iOS project that you are currently working on or interested in starting that can benefit from a private half day workshop at your office performed by Mirego?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7. Do you need more information or a follow-up call from BlueStar?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TeT-hB-LqO">
+                                <rect key="frame" x="20" y="756" width="728" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="DYU-Yt-OKm">
+                                <rect key="frame" x="20" y="125" width="728" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                    <segment title="5"/>
+                                    <segment title="6"/>
+                                    <segment title="7"/>
+                                    <segment title="8"/>
+                                    <segment title="9"/>
+                                    <segment title="10"/>
+                                </segments>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="AMQ-Vg-xuD">
+                                <rect key="frame" x="20" y="205" width="728" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                    <segment title="5"/>
+                                    <segment title="6"/>
+                                    <segment title="7"/>
+                                    <segment title="8"/>
+                                    <segment title="9"/>
+                                    <segment title="10"/>
+                                </segments>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="MOE-Kf-dtQ">
+                                <rect key="frame" x="20" y="285" width="728" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                    <segment title="5"/>
+                                    <segment title="6"/>
+                                    <segment title="7"/>
+                                    <segment title="8"/>
+                                    <segment title="9"/>
+                                    <segment title="10"/>
+                                </segments>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xXx-XT-rh9">
+                                <rect key="frame" x="20" y="365" width="728" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                    <segment title="5"/>
+                                    <segment title="6"/>
+                                    <segment title="7"/>
+                                    <segment title="8"/>
+                                    <segment title="9"/>
+                                    <segment title="10"/>
+                                </segments>
+                            </segmentedControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Mh-xo-80w">
+                                <rect key="frame" x="20" y="445" width="728" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="le4-y4-4EV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDE-bD-3KG">
+                                <rect key="frame" x="20" y="626" width="728" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="mpb-qo-hDp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCK-GM-qH1">
+                                <rect key="frame" x="20" y="787" width="728" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="Dy7-Ex-T2b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TeT-hB-LqO" firstAttribute="top" secondItem="jOH-0D-6nz" secondAttribute="bottom" constant="140" id="0UH-A0-ZJL"/>
+                            <constraint firstItem="AMQ-Vg-xuD" firstAttribute="trailing" secondItem="omy-0o-L8N" secondAttribute="trailing" id="3yA-hJ-hcZ"/>
+                            <constraint firstItem="xXx-XT-rh9" firstAttribute="top" secondItem="BFo-rU-dMD" secondAttribute="bottom" constant="10" id="40j-uJ-a18"/>
+                            <constraint firstItem="qDE-bD-3KG" firstAttribute="centerX" secondItem="PRa-yj-42t" secondAttribute="centerX" id="5go-Im-wW4"/>
+                            <constraint firstItem="qDE-bD-3KG" firstAttribute="top" secondItem="jOH-0D-6nz" secondAttribute="bottom" constant="10" id="73v-ad-ez8"/>
+                            <constraint firstItem="sCK-GM-qH1" firstAttribute="leading" secondItem="TeT-hB-LqO" secondAttribute="leading" id="8Gr-dH-f1K"/>
+                            <constraint firstItem="7b7-lE-Ivh" firstAttribute="top" secondItem="BFo-rU-dMD" secondAttribute="top" constant="80" id="9DY-4S-IP3"/>
+                            <constraint firstItem="AMQ-Vg-xuD" firstAttribute="leading" secondItem="omy-0o-L8N" secondAttribute="leading" id="9Oz-dz-PUt"/>
+                            <constraint firstItem="TeT-hB-LqO" firstAttribute="trailing" secondItem="qDE-bD-3KG" secondAttribute="trailing" id="ARO-G1-Pda"/>
+                            <constraint firstItem="jOH-0D-6nz" firstAttribute="top" secondItem="7b7-lE-Ivh" secondAttribute="bottom" constant="140" id="CTM-A2-OGK"/>
+                            <constraint firstItem="omy-0o-L8N" firstAttribute="leading" secondItem="MOE-Kf-dtQ" secondAttribute="leading" id="CVa-cB-jkm"/>
+                            <constraint firstItem="jOH-0D-6nz" firstAttribute="trailing" secondItem="qDE-bD-3KG" secondAttribute="trailing" id="E9T-vI-yqp"/>
+                            <constraint firstItem="8Mh-xo-80w" firstAttribute="trailing" secondItem="7b7-lE-Ivh" secondAttribute="trailing" id="G6m-QA-Zlv"/>
+                            <constraint firstItem="xXx-XT-rh9" firstAttribute="leading" secondItem="BFo-rU-dMD" secondAttribute="leading" id="GjB-9X-pTp"/>
+                            <constraint firstItem="AMQ-Vg-xuD" firstAttribute="leading" secondItem="Oxf-fD-t6R" secondAttribute="leading" id="Gqg-WU-TVc"/>
+                            <constraint firstItem="AMQ-Vg-xuD" firstAttribute="top" secondItem="Oxf-fD-t6R" secondAttribute="bottom" constant="10" id="IsQ-y5-fof"/>
+                            <constraint firstItem="sCK-GM-qH1" firstAttribute="top" secondItem="TeT-hB-LqO" secondAttribute="bottom" constant="10" id="JEH-ZF-gKj"/>
+                            <constraint firstItem="omy-0o-L8N" firstAttribute="trailing" secondItem="MOE-Kf-dtQ" secondAttribute="trailing" id="JQS-7u-Sf2"/>
+                            <constraint firstItem="DYU-Yt-OKm" firstAttribute="leading" secondItem="Oxf-fD-t6R" secondAttribute="leading" id="Jkg-nH-7zC"/>
+                            <constraint firstItem="jOH-0D-6nz" firstAttribute="leading" secondItem="qDE-bD-3KG" secondAttribute="leading" id="JxX-Hl-nS5"/>
+                            <constraint firstItem="Oxf-fD-t6R" firstAttribute="top" secondItem="1uh-W2-qaO" secondAttribute="bottom" constant="59" id="K6T-ES-Wx8"/>
+                            <constraint firstItem="BFo-rU-dMD" firstAttribute="leading" secondItem="MOE-Kf-dtQ" secondAttribute="leading" id="NJG-7h-oGl"/>
+                            <constraint firstItem="DYU-Yt-OKm" firstAttribute="leading" secondItem="1uh-W2-qaO" secondAttribute="leading" id="Quk-QQ-bOW"/>
+                            <constraint firstItem="8Mh-xo-80w" firstAttribute="top" secondItem="7b7-lE-Ivh" secondAttribute="bottom" constant="10" id="QvD-Th-JYz"/>
+                            <constraint firstItem="MOE-Kf-dtQ" firstAttribute="top" secondItem="omy-0o-L8N" secondAttribute="bottom" constant="10" id="S77-kH-ZY2"/>
+                            <constraint firstItem="7b7-lE-Ivh" firstAttribute="leading" secondItem="8Mh-xo-80w" secondAttribute="leading" id="T1f-7M-Ug4"/>
+                            <constraint firstItem="7b7-lE-Ivh" firstAttribute="trailing" secondItem="xXx-XT-rh9" secondAttribute="trailing" id="VET-kL-AZm"/>
+                            <constraint firstItem="Oxf-fD-t6R" firstAttribute="trailing" secondItem="AMQ-Vg-xuD" secondAttribute="trailing" id="XDx-10-fRU"/>
+                            <constraint firstItem="8Mh-xo-80w" firstAttribute="trailing" secondItem="jOH-0D-6nz" secondAttribute="trailing" id="Xyd-Os-d3e"/>
+                            <constraint firstItem="DYU-Yt-OKm" firstAttribute="top" secondItem="1uh-W2-qaO" secondAttribute="bottom" constant="10" id="YWV-6X-p6k"/>
+                            <constraint firstItem="TeT-hB-LqO" firstAttribute="leading" secondItem="qDE-bD-3KG" secondAttribute="leading" id="ZA9-KE-JxA"/>
+                            <constraint firstItem="omy-0o-L8N" firstAttribute="top" secondItem="Oxf-fD-t6R" secondAttribute="top" constant="80" id="a7d-Tv-9Cq"/>
+                            <constraint firstItem="TeT-hB-LqO" firstAttribute="trailing" secondItem="sCK-GM-qH1" secondAttribute="trailing" id="apn-Nj-e8d"/>
+                            <constraint firstItem="Oxf-fD-t6R" firstAttribute="trailing" secondItem="DYU-Yt-OKm" secondAttribute="trailing" id="bcA-n6-D3A"/>
+                            <constraint firstItem="xXx-XT-rh9" firstAttribute="trailing" secondItem="BFo-rU-dMD" secondAttribute="trailing" id="eo7-b0-VmR"/>
+                            <constraint firstItem="xXx-XT-rh9" firstAttribute="leading" secondItem="7b7-lE-Ivh" secondAttribute="leading" id="fKc-27-voF"/>
+                            <constraint firstItem="BFo-rU-dMD" firstAttribute="top" secondItem="omy-0o-L8N" secondAttribute="top" constant="80" id="nQR-z8-hCk"/>
+                            <constraint firstItem="MOE-Kf-dtQ" firstAttribute="trailing" secondItem="BFo-rU-dMD" secondAttribute="trailing" id="rvX-25-EtI"/>
+                            <constraint firstItem="1uh-W2-qaO" firstAttribute="leading" secondItem="PRa-yj-42t" secondAttribute="leading" constant="20" symbolic="YES" id="v7J-Kz-MZm"/>
+                            <constraint firstAttribute="trailing" secondItem="1uh-W2-qaO" secondAttribute="trailing" constant="20" symbolic="YES" id="vFg-s7-L3R"/>
+                            <constraint firstItem="1uh-W2-qaO" firstAttribute="top" secondItem="lEd-3f-T37" secondAttribute="top" constant="30" id="w4d-3K-nmj"/>
+                            <constraint firstItem="jOH-0D-6nz" firstAttribute="leading" secondItem="8Mh-xo-80w" secondAttribute="leading" id="xb7-f6-aOD"/>
+                            <constraint firstItem="1uh-W2-qaO" firstAttribute="trailing" secondItem="DYU-Yt-OKm" secondAttribute="trailing" id="xk6-S9-Qgo"/>
+                            <constraint firstItem="C2S-cR-3Vp" firstAttribute="top" secondItem="sCK-GM-qH1" secondAttribute="bottom" constant="143" id="zYr-Z7-ZPn"/>
+                        </constraints>
+                    </scrollView>
+                    <navigationItem key="navigationItem" title="Apple Bootcamp Feedback" id="Jux-QQ-lhO">
+                        <barButtonItem key="rightBarButtonItem" title="Send" id="zge-Az-rhR">
+                            <connections>
+                                <action selector="send:" destination="BYZ-38-t0r" id="Ina-JT-qap"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="response1" destination="DYU-Yt-OKm" id="u3h-eA-swY"/>
+                        <outlet property="response2" destination="AMQ-Vg-xuD" id="e88-x5-eaV"/>
+                        <outlet property="response3" destination="MOE-Kf-dtQ" id="tu7-21-TCc"/>
+                        <outlet property="response4" destination="xXx-XT-rh9" id="gtb-6V-Fqi"/>
+                        <outlet property="response5" destination="8Mh-xo-80w" id="vRg-Zv-xo1"/>
+                        <outlet property="response6" destination="qDE-bD-3KG" id="gAm-Xa-H1z"/>
+                        <outlet property="response7" destination="sCK-GM-qH1" id="SA4-MW-SV4"/>
+                        <outlet property="scrollview" destination="PRa-yj-42t" id="7SW-7U-0Cq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-200" y="-350"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
